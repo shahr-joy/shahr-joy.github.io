@@ -224,7 +224,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
@@ -255,7 +255,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: false #changed this
+      share: true
       comments: true
   # _publications
   - scope:
